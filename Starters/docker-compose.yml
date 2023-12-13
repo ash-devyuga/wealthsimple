@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: wealth-simple-postgres
+    environment:
+      POSTGRES_DB: wealthsimple
+      POSTGRES_USER: wealthsimple
+      POSTGRES_PASSWORD: my_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
