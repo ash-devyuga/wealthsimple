@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/khalder/Documents/DevYuga/wealthSimple/wealthSimple.csproj": {}
+    "/Users/lokeshsingla/wealthsimple/wealthSimple.csproj": {}
   },
   "projects": {
-    "/Users/khalder/Documents/DevYuga/wealthSimple/wealthSimple.csproj": {
+    "/Users/lokeshsingla/wealthsimple/wealthSimple.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/khalder/Documents/DevYuga/wealthSimple/wealthSimple.csproj",
+        "projectUniqueName": "/Users/lokeshsingla/wealthsimple/wealthSimple.csproj",
         "projectName": "wealthSimple",
-        "projectPath": "/Users/khalder/Documents/DevYuga/wealthSimple/wealthSimple.csproj",
-        "packagesPath": "/Users/khalder/.nuget/packages/",
-        "outputPath": "/Users/khalder/Documents/DevYuga/wealthSimple/obj/",
+        "projectPath": "/Users/lokeshsingla/wealthsimple/wealthSimple.csproj",
+        "packagesPath": "/Users/lokeshsingla/.nuget/packages/",
+        "outputPath": "/Users/lokeshsingla/wealthsimple/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/khalder/.nuget/NuGet/NuGet.Config"
+          "/Users/lokeshsingla/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -35,12 +35,24 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -66,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

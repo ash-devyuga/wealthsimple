@@ -1,0 +1,8 @@
+/Users/lokeshsingla/wealthsimple/obj/Debug/net7.0/wealthSimple.csproj.AssemblyReference.cache
+/Users/lokeshsingla/wealthsimple/obj/Debug/net7.0/wealthSimple.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lokeshsingla/wealthsimple/obj/Debug/net7.0/wealthSimple.AssemblyInfoInputs.cache
+/Users/lokeshsingla/wealthsimple/obj/Debug/net7.0/wealthSimple.AssemblyInfo.cs
+/Users/lokeshsingla/wealthsimple/obj/Debug/net7.0/wealthSimple.csproj.CoreCompileInputs.cache
+/Users/lokeshsingla/wealthsimple/obj/Debug/net7.0/wealthSimple.MvcApplicationPartsAssemblyInfo.cs
+/Users/lokeshsingla/wealthsimple/obj/Debug/net7.0/wealthSimple.MvcApplicationPartsAssemblyInfo.cache
+/Users/lokeshsingla/wealthsimple/obj/Debug/net7.0/wealthSimple.sourcelink.json
